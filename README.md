@@ -1,12 +1,12 @@
 # Design-an-L298-2A-Motor-Driver-Circuit-using-Eagle-software-and-generate-the-Gerber-file.
-### Exp 5: Design an L298 2A Motor Driver Circuit using Eagle software and generate the Gerber file.
+## Exp 5: Design an L298 2A Motor Driver Circuit using Eagle software and generate the Gerber file.
 
-# AIM:
+## AIM:
 To design the schematic and PCB layout diagram of an L298 2A Motor Driver Circuit using Eagle software.
-# EQUIPMENT REQUIRED:
+## EQUIPMENT REQUIRED:
 ●	Hardware: Personal Computer (PC)<br>
 ●	Software: Eagle <br>
-# PROCEDURE:
+## PROCEDURE:
 	Create a New Project:<br>
 o	Launch EAGLE and start a new project for your PCB design.<br>
 o	Within the project, create a new schematic file.<br>
@@ -33,7 +33,7 @@ o	Go to File > CAM Processor and configure the CAM jobs to generate Gerber files
 o	Verify the generated files to ensure they contain all necessary information for manufacturing.<br>
 	Save Manufacturing Files:<br>
 o	Save the Gerber files and any other required manufacturing files to send to your PCB manufacturer for fabrication.<br>
-# THEORY:
+## THEORY:
 The L298 is a dual H-Bridge motor driver IC that allows you to control two DC motors or a single stepper motor. It can drive motors with voltage up to 46V and current up to 2A per channel, hence it's suitable for medium-power applications.
 ### Key features of the L298:
 •	Dual full-bridge drivers (can control two motors independently)<br>
@@ -64,15 +64,15 @@ o	If IN1 = HIGH and IN2 = LOW, motor 1 rotates in one direction.<br>
 o	Reversing the logic (IN1 = LOW, IN2 = HIGH) makes it rotate in the opposite direction.<br>
 o	When both inputs are the same, the motor stops.<br>
 
-# CIRCUIT DIAGRAM:
+## CIRCUIT DIAGRAM:
 ![image](https://github.com/user-attachments/assets/b463c844-3660-426e-8c6a-09600f6720df)
 
-# EXPECTED OUTPUT:
+## EXPECTED OUTPUT:
 ### Schematic diagram
  ![444365782-acbbce9d-add5-4941-877e-888810abd5a4](https://github.com/user-attachments/assets/04146088-033b-44fe-b2c5-dc1daf1e7635)
 
 ### Layout diagram
  ![444365807-00125aa9-fffe-416b-922c-0df072a2a8b6](https://github.com/user-attachments/assets/f996bdea-3519-420b-9cd3-6e3dc51cf072)
 
-# RESULT:
+## RESULT:
 Thus, the schematic and PCB layout for the L298 2A Motor Driver Circuit has been successfully designed using Eagle software.
